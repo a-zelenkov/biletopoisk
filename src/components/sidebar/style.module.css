@@ -1,0 +1,10 @@
+.sidebar {
+    width: 408px;
+    border-radius: 8px;
+    padding: 24px;
+    height: 100%;
+}
+
+.input {
+    margin-top: 20px;
+}

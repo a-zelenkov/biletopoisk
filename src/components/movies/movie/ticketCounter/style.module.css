@@ -1,0 +1,19 @@
+.counter {
+    display: flex;
+    align-items: flex-start;
+}
+
+.amount {
+    margin: 0 8px;
+    font-weight: 600;
+}
+
+.delete {
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.counterContent {
+    display: flex;
+    align-items: center;
+}

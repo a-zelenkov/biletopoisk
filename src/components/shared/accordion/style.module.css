@@ -1,0 +1,26 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    padding: 24px;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icon {
+    cursor: pointer;
+}

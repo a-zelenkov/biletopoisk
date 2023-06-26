@@ -1,0 +1,49 @@
+.default {
+    position: absolute;
+    inset: 0 0 0 0;
+    width: max-content;
+    height: max-content;
+}
+
+.background {
+    position: absolute;
+    inset: 0 0 0 0;
+    background: #00000080;
+}
+
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 24px;
+}
+
+.button {
+    padding: 8px 16px;
+}
+
+.outlined {
+    background: var(--color-secondary);
+    border: 1px solid var(--color-active);
+    color: var(--color-active);
+    margin-left: 8px;
+}

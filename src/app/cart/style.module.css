@@ -1,0 +1,27 @@
+.page {
+    width: 100%;
+    display: flex;
+    padding: 34px;
+    flex-direction: column;
+}
+
+.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.empty button {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    border-radius: 8px;
+    margin-top: auto;
+}

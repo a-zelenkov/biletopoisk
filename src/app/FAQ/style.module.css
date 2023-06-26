@@ -1,0 +1,6 @@
+.page {
+    width: 100%;
+    display: flex;
+    padding: 34px;
+    flex-direction: column;
+}

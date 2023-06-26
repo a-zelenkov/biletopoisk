@@ -1,0 +1,25 @@
+.movie {
+    height: 168px;
+    padding: 24px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.preview {
+    display: flex;
+}
+
+.text {
+    margin-left: 24px;
+}
+
+.genre {
+    margin-top: 8px;
+}
+
+.image {
+    border-radius: 8px;
+}
